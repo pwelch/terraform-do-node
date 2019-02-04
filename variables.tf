@@ -3,7 +3,6 @@
 # Module Settings
 variable "node_name" {
   description = "Node Name"
-  type        = "string"
   default     = "node-01"
 }
 
