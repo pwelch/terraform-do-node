@@ -3,7 +3,7 @@
 # DO Tag
 resource "digitalocean_tag" "terraform_created" {
   name = "terraform_created"
-}
+
 
 # Chef Provision Recipe Template
 data "template_file" "init" {
